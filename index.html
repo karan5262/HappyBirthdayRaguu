@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+
+
+
+<body>
+    <audio id="background-music" autoplay loop>
+        <source src="images/happy-birthday-266285.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <!-- Confetti for Fun -->
+<div class="confetti" style="left: 10%; animation-duration: 4s;"></div>
+<div class="confetti" style="left: 20%; animation-duration: 6s;"></div>
+<div class="confetti" style="left: 30%; animation-duration: 5s;"></div>
+<div class="confetti" style="left: 40%; animation-duration: 7s;"></div>
+<div class="confetti" style="left: 50%; animation-duration: 6s;"></div>
+<div class="confetti" style="left: 60%; animation-duration: 4.5s;"></div>
+<div class="confetti" style="left: 70%; animation-duration: 5.5s;"></div>
+<div class="confetti" style="left: 80%; animation-duration: 7s;"></div>
+<div class="confetti" style="left: 90%; animation-duration: 5s;"></div>
+
+
+
+
+
+    <!-- Header Section -->
+    <header>
+        <h1>🎉 Happy Birthday 🎂</h1>
+        <p>Wishing you a day filled with love, laughter, and joy!</p>
+        
+        <button id="toggle-audio-btn" >🔈 click twice!</button>
+    </header>
+
+    <!-- Image Gallery -->
+    <section class="gallery">
+        <h2>Happy Birthday Raguuu 🐒</h2>
+        <div class="image-grid ">
+            <img class="interactive-img shaking-image left-shake" src="images/img2.jpg" alt="Memory 2">
+            <img class="interactive-img opposite-shake right-shake" src="images/img1.jpg" alt="Memory 1">
+            <img class="interactive-img shaking-image left-shake" src="images/img3.jpg" alt="Memory 3">
+            <img class="interactive-img opposite-shake right-shake" src="images/img4.jpg" alt="Memory 4">
+            <img class="interactive-img shaking-image left-shake" src="images/img5.jpg" alt="Memory 5">
+            <img class="interactive-img opposite-shake right-shake" src="images/img6.jpg" alt="Memory 6">
+            <img class="interactive-img shaking-image left-shake" src="images/img7.jpg" alt="Memory 7">
+            <img class="interactive-img opposite-shake right-shake" src="images/img8.jpg" alt="Memory 8">
+            <img class="interactive-img shaking-image left-shake" src="images/img9.jpg" alt="Memory 9">
+            <img class="interactive-img opposite-shake right-shake" src="images/img10.jpg" alt="Memory 10">
+            <img class="interactive-img shaking-image left-shake" src="images/img11.jpg" alt="Memory 10">
+            <img class="interactive-img opposite-shake right-shake" src="images/img12.jpg" alt="Memory 10">
+            <img class="interactive-img shaking-image left-shake" src="images/img13.jpg" alt="Memory 10">
+            <img class="interactive-img opposite-shake right-shake" src="images/img14.jpg" alt="Memory 10">
+            <img class="interactive-img shaking-image left-shake" src="images/img15.jpg" alt="Memory 10">
+        </div>
+    </section>
+   
+
+    <div style="display: flex; justify-content: center; gap: 10px;">
+        <div class="candle"></div>
+        <div class="candle"></div>
+        <div class="candle"></div>
+        <div class="candle"></div>
+        <div class="candle"></div>
+    </div>
+    
+    <!-- Interactive Section -->
+    <section class="interactive">
+        <!-- <h2>Click to Light Up the Cake! 🎂</h2> -->
+        <div class="cake-container">
+            <img class="interactive-img" src="./images/cake1.jpg" id="birthday-cake" alt="Birthday Cake">
+        </div>
+        <button onclick="celebrate()">Light the Candles 🎇</button>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Made with ❤️ for Raguuu!</p>
+       
+    </footer>
+
+   
+    <script src="script.js"></script>
+
+
+
+  
+</body>
+</html>
